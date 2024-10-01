@@ -6,7 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "CustomCube.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable)
 class CPP_53_API ACustomCube : public AActor
 {
 	GENERATED_BODY()
