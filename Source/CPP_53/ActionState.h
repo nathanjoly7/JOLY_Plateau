@@ -13,5 +13,8 @@ UCLASS()
 class CPP_53_API UActionState : public UUParentState
 {
 	GENERATED_BODY()
-	
+protected :
+	virtual void EnterState();
+	virtual void Comportement();
+	virtual void ExitState();
 };

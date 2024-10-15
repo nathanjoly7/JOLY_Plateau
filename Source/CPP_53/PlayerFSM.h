@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "PlayerFSM.generated.h"
+#include "UParentState.h"
 
 UCLASS()
 class CPP_53_API APlayerFSM : public AActor
@@ -22,5 +23,6 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	//UFUNCTION()
+	//void ChangeState(AState newState)
 };

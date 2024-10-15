@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
+#include "PlayerFSM.h"
 #include "UParentState.generated.h"
 
 /**
@@ -13,7 +14,8 @@ UCLASS()
 class CPP_53_API UUParentState : public UObject
 {
 	GENERATED_BODY()
-	virtual void EnterState();
-	virtual void Comportement();
-	virtual void ExitState();
+protected :
+	virtual void EnterState(PlayerFSM stateMachine);
+	virtual void Comportement(PlayerFSM stateMachine);
+	virtual void ExitState(PlayerFSM stateMachine);
 };
