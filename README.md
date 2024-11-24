@@ -18,4 +18,4 @@ Cases Vertes sans lumiere font avancer de 2.
 
 En fin de partie on voit tous les scores.
 
- 
+Mettre le son si possible.
